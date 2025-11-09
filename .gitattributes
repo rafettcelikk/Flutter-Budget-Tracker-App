@@ -1,0 +1,15 @@
+# Dart dosyaları her zaman görünür olsun
+*.dart linguist-detectable=true
+
+# Kullanmak istemediğin platform klasörlerini gizle
+ios/* linguist-vendored
+macos/* linguist-vendored
+linux/* linguist-vendored
+windows/* linguist-vendored
+
+# Sadece Android, lib, test ve web kalsın
+# (bunları gizlemiyoruz, yani eklemiyoruz)
+
+# İsteğe bağlı: otomatik üretilen dosyaları da gizleyebilirsin
+*.g.dart linguist-generated
+*.freezed.dart linguist-generated
